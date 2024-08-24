@@ -1355,5 +1355,13 @@ body{
     .pages{
         display: none;
     }
+
+    .heading1{
+        text-align: center;
+
+        font-size: 7vw;
+
+        background-color: transparent;
+    }
     
 }
