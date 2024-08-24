@@ -101,7 +101,7 @@ body{
     background-color: transparent;
 
     width: inherit;
-    height: 4.2vw;
+    height: auto;
 
     border-radius: inherit;
 
@@ -1278,4 +1278,72 @@ body{
     overflow-x: auto;
 
     border-radius:0.4vw;
+}
+
+
+
+
+@media only screen  and (max-width: 720px){
+    
+
+    .mainSection{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    
+        /* background-color: rgb(24, 24, 24);
+        box-shadow: 0px -5px 55px rgba(0, 0, 0, 0.831); */
+    
+        background-color: transparent;
+        
+        width: inherit;
+        height: inherit;
+    
+        border-radius: inherit;
+    }
+
+    .leftSection{
+
+        background-color: transparent;
+
+        width: 80%;
+    }
+
+    .rightSection{
+        background-color: transparent;
+
+        width: 50vw;
+        height: 50vw;
+
+        border-radius: 50vw;
+    }
+    .profilePicContainer{
+
+        background-color: transparent;
+
+        width: 100%;
+        height: 100%;
+    
+        border-radius: inherit;
+
+    }
+
+    .header{
+
+        background-color: brown;
+    }
+
+    .navigation{
+
+        background-color: transparent;
+    }
+
+    .logo{
+        background-color: transparent;
+
+        font-size: 5vw;
+        padding: 1vw 0vw 0vw 1.5vw;
+        
+    }
 }
