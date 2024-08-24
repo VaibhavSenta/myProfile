@@ -1286,6 +1286,12 @@ body{
 @media only screen  and (max-width: 720px){
     
 
+    .main{
+
+        width: 95vw;
+        height: 90vh;
+    }
+
     .mainSection{
         display: flex;
         flex-direction: column-reverse;
