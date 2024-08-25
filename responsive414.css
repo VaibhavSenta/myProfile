@@ -138,7 +138,7 @@ body{
 /* pages */
 .pages{
 
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
@@ -274,7 +274,7 @@ body{
 .heading1{
     text-align: center;
 
-    font-size: 4vw;
+    font-size: 7vw;
     color: rgb(183, 183, 183);
 
     background-color: transparent;
@@ -284,12 +284,12 @@ body{
     text-align: center;
     flex-wrap: wrap;
 
-    font-size: 1.9vw;
+    /* font-size: 3.9vw; */
 
     padding: 1vw 0vw;
 
 
-    width: 80%;
+    width: 70%;
 
 }
 
@@ -312,7 +312,8 @@ body{
 /* heading2 */
 .heading2{
 
-    font-size: 2.14vw;
+    font-size: 3.24vw;
+    text-decoration: underline;
 }
 
 
