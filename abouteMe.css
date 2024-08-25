@@ -1292,4 +1292,471 @@ body{
 
 
 
+@media only screen and (max-width: 414px) {
+    
 
+
+    
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    text-decoration: none;
+    list-style: none;
+
+    overflow: hidden;
+
+    cursor: default;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+
+    width: 0.17vw;
+    background-color: transparent;
+}
+::-webkit-scrollbar-button{
+
+    background-color: transparent;
+
+    height: 0.7vw;
+    width: 0.2vw;
+}
+::-webkit-scrollbar-track{
+
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+
+    background-color: rgba(191, 191, 191, 0.168);
+
+    border-radius: 10vw;
+}
+
+
+
+
+
+
+
+body{
+
+    background-color: rgb(27, 27, 27);
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+    color: white;
+
+    padding: 0.7vw;
+    
+}
+
+
+/* main */
+.main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+    background-color: rgb(19, 19, 19);
+    position: relative;
+
+    width: 95vw;
+    height: 95vh;
+
+    border-radius: 1vw;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.header{
+
+    background-color: transparent;
+
+    width: inherit;
+    height: auto;
+
+    border-radius: inherit;
+
+
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: transparent;
+
+    width: inherit;
+    height: inherit;
+
+    border-radius: inherit;
+
+    padding: 1.7vw;
+    
+
+}
+
+/* Logo */
+.logo{
+
+    font-size: 5.5vw;
+    font-weight: 600;
+    color: rgb(169, 169, 169);
+}
+
+
+
+/* pages */
+.pages{
+
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    background-color: transparent;
+
+    width: 40vw;
+}
+.pages a {
+    color: rgb(182, 182, 182);
+
+    font-size: 1.6vw;
+    transition: all 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.pages li{
+    transition: all 0.3s ease-in-out;
+}
+.pages li:hover, .pages a:hover{
+    color: rgb(175, 79, 222);
+
+    transform: scale(1.3);
+    
+    
+}
+
+
+
+
+
+
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: transparent;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 2vw;
+
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.rightSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    background-color: transparent;
+
+    width: 100%;
+    height: auto;
+
+    padding: 2vw 0vw;
+
+}
+
+
+.profilePicContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+
+    border-radius: 50em;
+    
+    height: 50vw;
+    width: 50vw;
+
+    overflow: hidden;
+    
+    border-right: 0.11vw solid white;
+    border-bottom: 0.11vw solid white;
+    
+    box-shadow: inset -20px -20px 20px rgba(52, 28, 203, 0.187);
+
+    transition: all 0.4s ease-in-out;
+}
+.profilePicContainer img{
+    height: inherit;
+    width: inherit;
+
+    object-fit: contain;
+}
+
+.MyName{
+
+    padding-top: 1vw;
+    font-size: 3vw;
+
+    color: rgb(184, 184, 184);
+}
+
+
+
+
+
+
+
+
+.span1{
+    color: slateblue;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: transparent;
+
+    height: auto;
+}
+
+.heading1{
+    text-align: center;
+
+    font-size: 7vw;
+    color: rgb(183, 183, 183);
+
+    background-color: transparent;
+}
+
+.message1{
+    text-align: center;
+    flex-wrap: wrap;
+
+    font-size: 3.9vw;
+
+    padding: 1vw 0vw;
+
+    padding-top: 7vw;
+
+    width: 85%;
+
+}
+
+/* education */
+.education{
+    display: flex;
+    flex-direction: column;
+
+    background-color: transparent;
+
+    margin-bottom: 3.3vw;
+
+    background-color: transparent;
+
+    width: 90%;
+
+    padding: 2vw 0vw;
+
+}
+/* heading2 */
+.heading2{
+
+    font-size: 3.24vw;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* SeeResume */
+.SeeResume{
+
+    background-color: transparent;
+
+    /* width: 11vw;
+    height: 2.7vw; */
+
+    border: none;
+    border: 0.104vw solid slateblue;
+
+    border-radius: 1vw 2vw 0.7vw 2vw;
+    box-shadow: 0px 0px 0px -2px rgba(105, 90, 205, 0.273);
+
+    font-size: 4.1vw;
+    font-weight: 600;
+    color: slateblue;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    padding: 2vw;
+    
+}
+.SeeResume:hover{
+    
+    box-shadow: -5px 4px 4px -2px rgba(108, 98, 170, 0.273);
+    transform: scale(1.03);
+
+    border-radius: 10vw;
+    border: 0.1vw solid transparent;
+    background-color: slateblue;
+
+    color: white;
+}
+
+
+
+
+
+/* skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+
+    background-color: transparent;
+
+    width: 90%;
+    height: auto;
+    
+}
+
+/* skillsHeading */
+.skillsHeading{
+
+    background-color: transparent;
+    
+    font-size: 2.1vw;
+    font-weight: 400;
+
+    color: rgba(165, 165, 165, 0.79);
+
+    padding-left: 1vw;
+    text-decoration: underline;
+    
+    
+}
+
+/* skillsLogos */
+.skillsLogos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: transparent;
+    height: auto;
+    width: auto;
+
+    /* margin-top: 0.6vw; */
+}
+
+/* skillBox */
+.skillBox{
+    display: flex;
+    background-color: transparent;
+
+    width: 10vw;
+    height: 10vw;
+}
+
+/* skillBox */
+.skillBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+
+    background-color: transparent;
+
+    width: 7vw;
+    height: 7vw;
+    cursor: pointer;
+
+    margin-right: 1vw;
+    
+
+    transition: all 0.4s ease-in-out;
+}
+.skillBox:hover{
+    
+    width: 7vw;
+
+
+}
+.skillBox img{
+    object-fit: contain;
+    
+    width: inherit;
+    height: inherit;
+    position: relative;
+
+    cursor: pointer;
+}
+.skillBoxText{
+    display: none;
+
+    font-size: 0.9vw;
+    width: 10vw;
+
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+
+}
