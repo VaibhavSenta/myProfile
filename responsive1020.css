@@ -176,7 +176,7 @@ body{
 .mainSection{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     background-color: transparent;
@@ -185,6 +185,8 @@ body{
     height: 100%;
 
     padding: 2vw;
+
+    overflow: hidden;
 }
 
 
@@ -226,6 +228,8 @@ body{
     
     height: 22.5vw;
     width: 22.5vw;
+
+    overflow: hidden;
     
     border-right: 0.11vw solid white;
     border-bottom: 0.11vw solid white;
@@ -233,6 +237,10 @@ body{
     box-shadow: inset -20px -20px 20px rgba(52, 28, 203, 0.187);
 
     transition: all 0.4s ease-in-out;
+}
+.profilePicContainer img{
+    height: inherit;
+    width: inherit;
 }
 
 .MyName{
