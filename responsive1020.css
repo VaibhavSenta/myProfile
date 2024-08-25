@@ -269,6 +269,8 @@ body{
     background-color: transparent;
 
     height: auto;
+
+    color: rgb(205, 205, 205);
 }
 
 .heading1{
@@ -310,6 +312,11 @@ body{
 
     padding: 2vw 0vw;
 
+}
+
+.educationDetai{
+
+    font-size: 1.7vw;
 }
 /* heading2 */
 .heading2{
