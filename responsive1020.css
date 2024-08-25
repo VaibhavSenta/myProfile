@@ -226,8 +226,8 @@ body{
 
     border-radius: 50em;
     
-    height: 22.5vw;
-    width: 22.5vw;
+    height: 30vw;
+    width: 30vw;
 
     overflow: hidden;
     
@@ -246,7 +246,7 @@ body{
 .MyName{
 
     padding-top: 1vw;
-    font-size: 2vw;
+    font-size: 2.3vw;
 
     color: rgb(184, 184, 184);
 }
@@ -274,7 +274,7 @@ body{
 .heading1{
     text-align: center;
 
-    font-size: 4vw;
+    font-size: 5vw;
     color: rgb(183, 183, 183);
 
     background-color: transparent;
@@ -284,9 +284,11 @@ body{
     text-align: center;
     flex-wrap: wrap;
 
-    font-size: 1.9vw;
+    font-size: 2vw;
 
     padding: 1vw 0vw;
+
+    padding-top:2vw;
 
 
     width: 80%;
