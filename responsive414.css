@@ -128,7 +128,7 @@ body{
 /* Logo */
 .logo{
 
-    font-size: 3vw;
+    font-size: 5.5vw;
     font-weight: 600;
     color: rgb(169, 169, 169);
 }
@@ -145,7 +145,7 @@ body{
 
     background-color: transparent;
 
-    width: 55vw;
+    width: 40vw;
 }
 .pages a {
     color: rgb(182, 182, 182);
